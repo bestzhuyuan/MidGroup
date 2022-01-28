@@ -626,7 +626,6 @@
             <artifactId>hbase-protocol</artifactId>
             <version>1.3.5</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-core</artifactId>
@@ -815,13 +814,6 @@
                     <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <!--netty测试包-->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.53.Final</version>
         </dependency>
     </dependencies>
 
